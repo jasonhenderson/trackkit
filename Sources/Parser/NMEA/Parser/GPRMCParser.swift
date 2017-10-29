@@ -59,7 +59,7 @@ class GPRMCParser: NMEAParsable {
     private static var timeFormatter: DateFormatter {
         let formatter = DateFormatter()
         formatter.timeZone = TimeZone(secondsFromGMT: 0)
-        formatter.dateFormat = "ddMMyyHHmmss"
+        formatter.dateFormat = "ddMMyyHHmmss.SSS"
         return formatter
     }
 
